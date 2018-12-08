@@ -9,14 +9,23 @@
 		"url": "https://github.com/maxto024/react-native-pos-calculator"
 	},
 	"typings": "typings/index.d.ts",
-	"files": [ "dist", "typings" ],
+	"files": [
+		"dist",
+		"typings"
+	],
 	"scripts": {
 		"lint": "tslint 'src/**/*.ts{,x}'",
 		"test": "npm run lint && jest",
 		"compile": "tsc -d --declarationDir ./typings",
 		"build": "rm -rf dist && rm -rf typings && npm run compile && prettier ./typings/**/*.d.ts --write"
 	},
-	"keywords": [ "react", "native", "calculator", "component", "input" ],
+	"keywords": [
+		"react",
+		"native",
+		"calculator",
+		"component",
+		"input"
+	],
 	"license": "MIT",
 	"devDependencies": {
 		"@types/enzyme": "^3.1.10",
@@ -50,15 +59,30 @@
 				"useBabelrc": true
 			}
 		},
-		"moduleFileExtensions": [ "ts", "tsx", "js", "jsx", "json", "node" ],
+		"moduleFileExtensions": [
+			"ts",
+			"tsx",
+			"js",
+			"jsx",
+			"json",
+			"node"
+		],
 		"preset": "react-native",
-		"setupFiles": [ "<rootDir>/src/__tests__/__setup__/enzyme.js" ],
-		"testMatch": [ "<rootDir>/src/__tests__/**/?(*.)(spec|test).[tj]s?(x)" ],
+		"setupFiles": [
+			"<rootDir>/src/__tests__/__setup__/enzyme.js"
+		],
+		"testMatch": [
+			"<rootDir>/src/__tests__/**/?(*.)(spec|test).[tj]s?(x)"
+		],
 		"transform": {
 			"^.+\\.tsx?$": "ts-jest"
 		},
-		"modulePathIgnorePatterns": [ "<rootDir>/example/node_modules" ],
-		"snapshotSerializers": [ "enzyme-to-json/serializer" ]
+		"modulePathIgnorePatterns": [
+			"<rootDir>/example/node_modules"
+		],
+		"snapshotSerializers": [
+			"enzyme-to-json/serializer"
+		]
 	},
 	"prettier": {
 		"semi": false,

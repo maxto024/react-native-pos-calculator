@@ -3,7 +3,7 @@
 version=$1
 echo
 
-echo "Releasing react-native-calculator version $version..."
+echo "Releasing react-native-pos-calculator version $version..."
 echo
 
 npm run build
