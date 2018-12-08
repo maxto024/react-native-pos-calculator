@@ -19,11 +19,7 @@ or yarn:
 yarn add react-native-calculator
 ```
 
-## Demo
 
-<a href="https://snack.expo.io/@budiadiono/react-native-calculator-example" target="_blank">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=exp://expo.io/@budiadiono/react-native-calculator-example">
-</a>
 
 
 
