@@ -1,9 +1,9 @@
-# React Native Calculator
+# React Native Point of Sales Calculator
 
 [![npm version](https://badge.fury.io/js/react-native-calculator.svg)](https://badge.fury.io/js/react-native-calculator)
 [![build status](https://travis-ci.org/budiadiono/react-native-calculator.svg)](https://travis-ci.org/budiadiono/react-native-calculator)
 
-Simple react native calculator and calculator input component.
+Simple react native point of sales calculator.
 
 ## Installation
 
@@ -25,27 +25,7 @@ yarn add react-native-calculator
 <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=exp://expo.io/@budiadiono/react-native-calculator-example">
 </a>
 
-## Calculator Component
 
-<img alt="react-native-gifted-chat" src="https://thumbs.gfycat.com/EnchantingVainFallowdeer-size_restricted.gif" width="261" height="464" /> <img alt="react-native-gifted-chat" src="https://thumbs.gfycat.com/BeautifulTimelyAmoeba-size_restricted.gif" width="261" height="464" />
-
-### Usage
-
-```javascript
-import React from 'react'
-import { View } from 'react-native'
-import { Calculator } from 'react-native-calculator'
-
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={{ flex: 1 }}>
-        <Calculator style={{ flex: 1 }} />
-      </View>
-    )
-  }
-}
-```
 
 ### Props
 
