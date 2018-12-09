@@ -87,5 +87,6 @@
 	"prettier": {
 		"semi": false,
 		"singleQuote": true
-	}
+	},
+	"dependencies": {}
 }
