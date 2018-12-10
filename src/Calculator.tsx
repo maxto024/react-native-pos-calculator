@@ -91,7 +91,7 @@ export class Calculator extends React.Component<CalculatorProps, State> {
 			width = window.width - window.x
 		}
 
-		width = (width as number) / 6
+		width = (width as number) / 5
 		const containerHeight = height
 
 		if (keyboardHeight) {
