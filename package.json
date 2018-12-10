@@ -15,6 +15,7 @@
 	],
 	"scripts": {
 		"lint": "tslint 'src/**/*.ts{,x}'",
+		"crn": " rm -rf ../easypos_app/node_modules/react-native-pos-calculator/dist && mv dist/ ../easypos_app/node_modules/react-native-pos-calculator/",
 		"test": "npm run lint && jest",
 		"compile": "tsc -d --declarationDir ./typings",
 		"build": "rm -rf dist && rm -rf typings && npm run compile && prettier ./typings/**/*.d.ts --write"
@@ -39,8 +40,8 @@
 		"enzyme-to-json": "^3.3.4",
 		"jest": "^23.1.0",
 		"prettier": "^1.13.4",
-		"react": "16.3.1",
-		"react-dom": "16.3.1",
+		"react": "16.6.0-alpha.8af6728",
+		"react-dom": "16.4.2",
 		"react-native": "^0.55.4",
 		"ts-jest": "^22.4.6",
 		"tslib": "^1.9.2",
