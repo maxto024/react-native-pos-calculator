@@ -1,6 +1,6 @@
 {
 	"name": "react-native-pos-calculator",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "React Native point of sales  Calculator",
 	"main": "dist/index.js",
 	"author": "Mohamed Elmi Hassan <maxto024@gmail.com>",
